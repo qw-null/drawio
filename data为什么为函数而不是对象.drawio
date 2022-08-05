@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T12:28:49.607Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.2.2" etag="0y04djP46b8yILqHVkoi" type="github"><diagram id="O2vGZk50uqvw2b4B0q2X">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-05T12:46:54.568Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="V4Wp2ZqHeSj-A2AQBFg8" version="20.2.2" type="github">
+  <diagram id="O2vGZk50uqvw2b4B0q2X" name="第 1 页">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vddXQo5zL3SqDPIU8aAj-1" value="&lt;h2 style=&quot;box-sizing: border-box; font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;microsoft yahei&amp;quot;, tahoma, arial, &amp;quot;Hiragino Sans GB&amp;quot;, sans-serif; margin-bottom: 16px; color: rgba(0, 0, 0, 0.85); line-height: 1.25; padding-bottom: 0.3em; border-bottom: 1px solid rgb(216, 222, 228); text-align: start; margin-top: 0px !important;&quot;&gt;为什么data属性是一个函数而不是一个对象？&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontColor=#393C56;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="170" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vddXQo5zL3SqDPIU8aAj-2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="60" width="20" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="vddXQo5zL3SqDPIU8aAj-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;结论&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="100" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vddXQo5zL3SqDPIU8aAj-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;原理分析&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="280" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vddXQo5zL3SqDPIU8aAj-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=18;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="55" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vddXQo5zL3SqDPIU8aAj-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;根实例对象data可以是对象也可以是函数，不会产生数据污染的情况（根实例是单例）&lt;/font&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;align=left;" vertex="1" parent="1">
+          <mxGeometry x="360" y="30" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vddXQo5zL3SqDPIU8aAj-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;组件实例对象data必须为函数，目的是为了防止多个组件实例对象之间共用一个data，产生数据污染。&lt;br&gt;（采用函数的形式，initData时会将其作为工厂函数，都会返回全新的data对象）&lt;br&gt;&lt;/font&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;align=left;" vertex="1" parent="1">
+          <mxGeometry x="360" y="110" width="380" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vddXQo5zL3SqDPIU8aAj-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;strokeColor=#0000CC;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vddXQo5zL3SqDPIU8aAj-11" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;initData：可以看出vue初始化data时，data的定义可以是函数也可以是对象&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;当进入自定义组件时，会执行mergeOptions进行选项合并，此时会触发对定义data的数据类型的校验&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;rounded=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="340" y="230" width="460" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
