@@ -1,1 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2022-08-11T06:47:33.991Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.3" etag="yzqK8Q6f_F8qHZ_xpqHC" type="github"><diagram id="CG99Nm2-LreTathdO4FF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-11T06:58:27.861Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="ZblDGHCZiji5aQhItpoo" version="20.2.3" type="github">
+  <diagram id="CG99Nm2-LreTathdO4FF" name="第 1 页">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FCE7CD" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7oJAjaDkh5wQhp_m9pA4-1" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="240" y="20" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7oJAjaDkh5wQhp_m9pA4-2" value="&lt;font face=&quot;Garamond&quot;&gt;&lt;b&gt;vm.msg =&#39;changed&#39;;&lt;br&gt;Vue.nextTick(function(){})&lt;br&gt;console.log(vm.$el.msg)&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="250" y="15" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7oJAjaDkh5wQhp_m9pA4-3" value="DOM更新" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Garamond;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="260" y="230" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7oJAjaDkh5wQhp_m9pA4-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=1;sketch=1;hachureGap=4;fontFamily=Garamond;fontSize=16;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="148" as="sourcePoint" />
+            <mxPoint x="360" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7oJAjaDkh5wQhp_m9pA4-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=1;sketch=1;hachureGap=4;fontFamily=Garamond;fontSize=16;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="359" y="300" as="sourcePoint" />
+            <mxPoint x="360" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7oJAjaDkh5wQhp_m9pA4-6" value="&lt;font color=&quot;#ff0000&quot;&gt;nextTick的代码会在这里执行，这个时候DOM已经更新&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Garamond;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="240" y="380" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7oJAjaDkh5wQhp_m9pA4-7" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Garamond;fontSize=20;fillColor=none;strokeColor=#FF0000;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="249" y="66" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7oJAjaDkh5wQhp_m9pA4-9" value="" style="curved=1;endArrow=classic;html=1;rounded=1;sketch=1;hachureGap=4;fontFamily=Garamond;fontSize=16;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#FF0000;strokeWidth=5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="479" y="89" as="sourcePoint" />
+            <mxPoint x="490" y="409" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="180" />
+              <mxPoint x="580" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
