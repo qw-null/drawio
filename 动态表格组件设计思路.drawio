@@ -1,46 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T02:25:48.598Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="mrQx6ZPvjFzgUsf0A6_M" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-15T02:33:20.727Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="326cooM904Z3yAvQ2lkE" version="20.2.3" type="github">
   <diagram id="-RdULIwFTsApWhupe7bk" name="第 1 页">
-    <mxGraphModel dx="728" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jnMOZJkR-JTWPYvO9fMh-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;DynamicTable组件&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="jnMOZJkR-JTWPYvO9fMh-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;DynamicTable组件&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="100" y="130" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jnMOZJkR-JTWPYvO9fMh-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="jnMOZJkR-JTWPYvO9fMh-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="250" y="70" width="20" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="jnMOZJkR-JTWPYvO9fMh-5" value="字段含义" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="jnMOZJkR-JTWPYvO9fMh-5" value="字段含义" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="280" y="80" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jnMOZJkR-JTWPYvO9fMh-6" value="实现功能" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="jnMOZJkR-JTWPYvO9fMh-6" value="实现功能" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="280" y="200" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jnMOZJkR-JTWPYvO9fMh-10" value="tableHead：展示表格的列名称" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="jnMOZJkR-JTWPYvO9fMh-10" value="tableHead：展示表格的列名称" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="400" y="50" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jnMOZJkR-JTWPYvO9fMh-11" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="jnMOZJkR-JTWPYvO9fMh-11" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="404" y="155" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="jnMOZJkR-JTWPYvO9fMh-12" value="&lt;ol&gt;&lt;li&gt;后端请求表格头数据，重写render函数展示表格&lt;/li&gt;&lt;li&gt;首次使用传递所有表格头数据&lt;/li&gt;&lt;li&gt;用户选择展示表格头，提交数据至后端&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="jnMOZJkR-JTWPYvO9fMh-12" value="&lt;ol&gt;&lt;li&gt;后端请求表格头数据，重写render函数展示表格&lt;/li&gt;&lt;li&gt;首次使用传递所有表格头数据&lt;/li&gt;&lt;li&gt;用户选择展示表格头，提交数据至后端&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="424" y="155" width="300" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="jnMOZJkR-JTWPYvO9fMh-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="jnMOZJkR-JTWPYvO9fMh-13">
+        <mxCell id="jnMOZJkR-JTWPYvO9fMh-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=14;" parent="1" source="jnMOZJkR-JTWPYvO9fMh-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="170" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jnMOZJkR-JTWPYvO9fMh-13" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ColumSetting组件&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="jnMOZJkR-JTWPYvO9fMh-13" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ColumSetting组件&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="100" y="290" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jnMOZJkR-JTWPYvO9fMh-15" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=14;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" target="jnMOZJkR-JTWPYvO9fMh-12">
+        <mxCell id="jnMOZJkR-JTWPYvO9fMh-15" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=14;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#FF3333;" parent="1" target="jnMOZJkR-JTWPYvO9fMh-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="320" as="sourcePoint" />
             <mxPoint x="440" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jnMOZJkR-JTWPYvO9fMh-16" value="tableFlag：表明是哪一个表格的设置数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="jnMOZJkR-JTWPYvO9fMh-16" value="tableFlag：表明是哪一个表格的设置数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="400" y="80" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JxUetbS88jLCGqUMWjPz-1" value="&lt;font color=&quot;#663300&quot; style=&quot;font-size: 14px;&quot;&gt;后续的思考：&lt;br&gt;&lt;/font&gt;&lt;ol&gt;&lt;li&gt;&lt;font color=&quot;#663300&quot; size=&quot;3&quot;&gt;支持用户回退上一次选择的功能&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#663300&quot; size=&quot;3&quot;&gt;支持用户查看上一次选择缩略图的功能&lt;/font&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="300" width="310" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
