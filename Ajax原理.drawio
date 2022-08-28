@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2022-08-27T15:16:25.414Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.7" etag="62FQy3OSGKNbcSubgxK2" type="github"><diagram id="v-qRLMslbTEvWf8Ciqw4">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-28T02:53:22.122Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="HSpHnGpNBh_lp-GW50pJ" version="20.2.7" type="github">
+  <diagram id="v-qRLMslbTEvWf8Ciqw4" name="第 1 页">
+    <mxGraphModel dx="770" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2Vc_aA5SIwbYCuAOVpnE-1" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;创建一个XMLHttpRequest对象，发送异步请求HttpRequest&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;align=left;" vertex="1" parent="1">
+          <mxGeometry x="20" y="80" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vc_aA5SIwbYCuAOVpnE-2" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=11;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="104.77000000000001" as="sourcePoint" />
+            <mxPoint x="250" y="104.77000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Vc_aA5SIwbYCuAOVpnE-3" value="互联网" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="260" y="80" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vc_aA5SIwbYCuAOVpnE-4" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;接收HttpRequest请求，返回请求数据&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;align=left;" vertex="1" parent="1">
+          <mxGeometry x="430" y="80" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vc_aA5SIwbYCuAOVpnE-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=11;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="374" y="104.61999999999998" as="sourcePoint" />
+            <mxPoint x="414" y="104.61999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="374" y="104.85" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Vc_aA5SIwbYCuAOVpnE-6" value="互联网" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="260" y="210" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vc_aA5SIwbYCuAOVpnE-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=11;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="140" as="sourcePoint" />
+            <mxPoint x="380" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Vc_aA5SIwbYCuAOVpnE-8" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;接收返回数据，用JavaScript操作DOM更新页面&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;align=left;" vertex="1" parent="1">
+          <mxGeometry x="18" y="214" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vc_aA5SIwbYCuAOVpnE-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=11;fontColor=#1D3557;strokeColor=#457B9D;fillColor=#A8DADC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="244.62" as="sourcePoint" />
+            <mxPoint x="200" y="244.62" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Vc_aA5SIwbYCuAOVpnE-10" value="浏览器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="78" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vc_aA5SIwbYCuAOVpnE-11" value="浏览器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="78" y="184" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Vc_aA5SIwbYCuAOVpnE-12" value="服务器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="470" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
