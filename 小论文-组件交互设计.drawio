@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-12T08:59:44.048Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="dlckbncx-afZZ75NNHgj" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-12T12:00:57.700Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="6y3wsc2vRgGdE4FYnpCw" version="20.4.0" type="github">
   <diagram id="_hUouwMQV8gkaWtI9EFg" name="第 1 页">
     <mxGraphModel dx="1588" dy="1062" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,10 +26,10 @@
           <mxGeometry x="237" y="-22.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eaydKzulYMXYrQOY8sVZ-13" value="组件3" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="89" y="158" width="69" height="35" as="geometry" />
+          <mxGeometry x="86" y="158" width="69" height="35" as="geometry" />
         </mxCell>
         <mxCell id="eaydKzulYMXYrQOY8sVZ-14" value="组件n" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="90.5" y="270" width="69" height="35" as="geometry" />
+          <mxGeometry x="86" y="282" width="69" height="35" as="geometry" />
         </mxCell>
         <mxCell id="V4HHCtt5AugIOprLK845-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -100,7 +100,7 @@
         <mxCell id="V4HHCtt5AugIOprLK845-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-52" y="184" as="sourcePoint" />
-            <mxPoint x="71" y="278" as="targetPoint" />
+            <mxPoint x="73" y="299" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="V4HHCtt5AugIOprLK845-20" value="事件数据流" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="V4HHCtt5AugIOprLK845-19">
@@ -111,7 +111,7 @@
         <mxCell id="V4HHCtt5AugIOprLK845-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-51" y="185" as="sourcePoint" />
-            <mxPoint x="85" y="229" as="targetPoint" />
+            <mxPoint x="85" y="239" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="V4HHCtt5AugIOprLK845-22" value="事件数据流" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="V4HHCtt5AugIOprLK845-21">
@@ -120,7 +120,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="V4HHCtt5AugIOprLK845-23" value="……" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="95" y="214" width="60" height="30" as="geometry" />
+          <mxGeometry x="89.5" y="228" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
